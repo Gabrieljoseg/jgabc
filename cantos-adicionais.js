@@ -1,5 +1,198 @@
 
 var cantosAdicionais = {
+  "indice": {
+    "title": "Índice",
+    "chants": [
+      {
+        "title": "Accedite ad Dominum",
+        "page": 5
+      },
+      {
+        "title": "Ad Cenam Agni (Tempo Pascal)",
+        "page": 5
+      },
+      {
+        "title": "Adoremus in æternum",
+        "page": 7
+      },
+      {
+        "title": "Adoro te devote",
+        "page": 9
+      },
+      {
+        "title": "Adoro te devote (Ambrosiano)",
+        "page": 11
+      },
+      {
+        "title": "Æterne Rex altissime",
+        "page": 13
+      },
+      {
+        "title": "Anima Christi",
+        "page": 15
+      },
+      {
+        "title": "Anima Christi (Ambrosiano)",
+        "page": 16
+      },
+      {
+        "title": "Anima Christi … Miserere (Ambrosiano)",
+        "page": 17
+      },
+      {
+        "title": "Ave verum",
+        "page": 18
+      },
+      {
+        "title": "Ave verum (Ambrosiano)",
+        "page": 19
+      },
+      {
+        "title": "Christe, vivens Hostia",
+        "page": 20
+      },
+      {
+        "title": "Christum Regem",
+        "page": 21
+      },
+      {
+        "title": "Cor Dulce Jesu (Coração Eucarístico de Jesus)",
+        "page": 23
+      },
+      {
+        "title": "Ecce Panis Angelorum",
+        "page": 24
+      },
+      {
+        "title": "Ego sum panis",
+        "page": 25
+      },
+      {
+        "title": "Ego sum panis (Ambrosiano)",
+        "page": 26
+      },
+      {
+        "title": "Homo quidam",
+        "page": 26
+      },
+      {
+        "title": "Homo quidam (Ambrosiano)",
+        "page": 27
+      },
+      {
+        "title": "Jesu, autor clementiæ (Ss. Coração de Jesus)",
+        "page": 27
+      },
+      {
+        "title": "Jesu, decus angelicum (Ss. Nome de Jesus)",
+        "page": 29
+      },
+      {
+        "title": "Jesu, dulcis amor (Tempo da Paixão)",
+        "page": 30
+      },
+      {
+        "title": "Jesu, dulcis memoria (Ss. Nome de Jesus)",
+        "page": 31
+      },
+      {
+        "title": "Jesu, nostra refectio",
+        "page": 33
+      },
+      {
+        "title": "Jesu, Rex admirabilis (Ss. Nome de Jesus)",
+        "page": 34
+      },
+      {
+        "title": "Lætamini unanimi",
+        "page": 35
+      },
+      {
+        "title": "O Mysterium ineffabile",
+        "page": 36
+      },
+      {
+        "title": "O Panis dulcissime",
+        "page": 37
+      },
+      {
+        "title": "O quam amabilis",
+        "page": 38
+      },
+      {
+        "title": "O quam suavis",
+        "page": 39
+      },
+      {
+        "title": "O quam suavis (Ambrosiano)",
+        "page": 40
+      },
+      {
+        "title": "O sacrum convivium",
+        "page": 41
+      },
+      {
+        "title": "O sacrum convivium (Ambrosiano)",
+        "page": 41
+      },
+      {
+        "title": "Pange Lingua",
+        "page": 42
+      },
+      {
+        "title": "Pange Lingua (Ambrosiano)",
+        "page": 44
+      },
+      {
+        "title": "Pange Lingua (Ambrosiano - melodia antiquior)",
+        "page": 46
+      },
+      {
+        "title": "Quotiescumque (Ambrosiano)",
+        "page": 48
+      },
+      {
+        "title": "Sacris Solemniis",
+        "page": 50
+      },
+      {
+        "title": "Sacris solemniis (Alter tonus)",
+        "page": 50
+      },
+      {
+        "title": "Salutis humanæ Sator",
+        "page": 52
+      },
+      {
+        "title": "Salve Lux mundi",
+        "page": 54
+      },
+      {
+        "title": "Sancti venite",
+        "page": 56
+      },
+      {
+        "title": "Totus formosus",
+        "page": 57
+      },
+      {
+        "title": "Ubi caritas",
+        "page": 58
+      },
+      {
+        "title": "Unus panis",
+        "page": 58
+      },
+      {
+        "title": "Verbum supernum",
+        "page": 59
+      },
+      {
+        "title": "Verbum supernum (Ambrosiano)",
+        "page": 60
+      }
+    ]
+  },
   "ss-sacramento": {
     "title": "Em honra do Santíssimo Sacramento",
     "chants": [

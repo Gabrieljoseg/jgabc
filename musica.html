@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Tool</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Music Tool</h1>
+    <input type="text" id="searchInput" onkeyup="searchMusic()" placeholder="Search for a song...">
+    <div id="musicList"></div>
+  </div>
+  <script src="cantos-adicionais.js"></script>
+  <script>
+function searchMusic() {
+  let input = document.getElementById('searchInput');
+  let filter = input.value.toUpperCase();
+  let musicList = document.getElementById("musicList");
+  musicList.innerHTML = '';
+  for (let section in cantosAdicionais) {
+    let sectionDiv = document.createElement('div');
+    let sectionTitle = document.createElement('h2');
+    sectionTitle.innerHTML = cantosAdicionais[section].title;
+    sectionDiv.appendChild(sectionTitle);
+    let ul = document.createElement('ul');
+    let chants = cantosAdicionais[section].chants;
+    let found = false;
+    for (let i = 0; i < chants.length; i++) {
+      let chant = chants[i];
+      if (chant.title.toUpperCase().indexOf(filter) > -1) {
+        let li = document.createElement('li');
+        li.innerHTML = chant.title;
+        ul.appendChild(li);
+        found = true;
+      }
+    }
+    if(found) {
+      sectionDiv.appendChild(ul);
+      musicList.appendChild(sectionDiv);
+    }
+  }
+}
+
+window.onload = function() {
+  let musicList = document.getElementById("musicList");
+  for (let section in cantosAdicionais) {
+    let sectionDiv = document.createElement('div');
+    let sectionTitle = document.createElement('h2');
+    sectionTitle.innerHTML = cantosAdicionais[section].title;
+    sectionDiv.appendChild(sectionTitle);
+    let ul = document.createElement('ul');
+    let chants = cantosAdicionais[section].chants;
+    for (let i = 0; i < chants.length; i++) {
+      let chant = chants[i];
+      let li = document.createElement('li');
+      li.innerHTML = chant.title;
+      ul.appendChild(li);
+    }
+    sectionDiv.appendChild(ul);
+    musicList.appendChild(sectionDiv);
+  }
+}
+  </script>
+</body>
+</html>
